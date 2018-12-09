@@ -24,7 +24,7 @@ describe('calculate sum with  arguments', function () {
             });
 
             describe('calculateSum with 2 arguments', function () {
-                test('should return 5 when a = 5, b = 10, c = 0, d = 0, e = 0 ', function () {
+                test('should return 15 when a = 5, b = 10, c = 0, d = 0, e = 0 ', function () {
                     a = 5;
                     b = 10;
                     c = 0;
@@ -35,7 +35,7 @@ describe('calculate sum with  arguments', function () {
             });
 
             describe('calculateSum with 3 arguments', function () {
-                test('should return 5 when a = 5, b = 10, c = 0, d = 0, e = 0 ', function () {
+                test('should return 35 when a = 5, b = 10, c = 20, d = 0, e = 0 ', function () {
                     a = 5;
                     b = 10;
                     c = 20;
@@ -45,7 +45,7 @@ describe('calculate sum with  arguments', function () {
                 });
             });
             describe('calculateSum with 4 arguments', function () {
-                test('should return 5 when a = 5, b = 10, c = 0, d = 0, e = 0 ', function () {
+                test('should return 65 when a = 5, b = 10, c = 20, d = 30, e = 0 ', function () {
                     a = 5;
                     b = 10;
                     c = 20;
@@ -55,7 +55,7 @@ describe('calculate sum with  arguments', function () {
                 });
             });
             describe('calculateSum with 5 arguments', function () {
-                test('should return 5 when a = 5, b = 10, c = 0, d = 0, e = 0 ', function () {
+                test('should return 90 when a = 5, b = 10, c = 20, d = 30, e = 25 ', function () {
                     a = 5;
                     b = 10;
                     c = 20;
@@ -65,3 +65,5 @@ describe('calculate sum with  arguments', function () {
                 });
             });
         });
+    });
+});

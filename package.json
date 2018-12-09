@@ -1,0 +1,19 @@
+{
+  "name": "less-18-hw",
+  "version": "1.0.0",
+  "description": "less 18",
+  "main": "arguments.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirbuIon1/less-18-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirbuIon1/less-18-hw/issues"
+  },
+  "homepage": "https://github.com/SirbuIon1/less-18-hw#readme"
+}
